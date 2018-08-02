@@ -17,8 +17,8 @@ for r in range(t):
 
     for i in range(-1000,1001,1):
         if d[i] > 1:
-            f = d[i]
-            count += (f*(f-1))/2
+            freq = d[i]
+            count += (freq*(freq-1))/2
 
     for i in range(-1000,1001,1):
         if d[i] > 0:
