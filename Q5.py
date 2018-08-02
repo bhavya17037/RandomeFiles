@@ -1,8 +1,5 @@
 from math import ceil, floor
 
-def float_round(num, places = 0, direction = floor):
-    return direction(num * (10**places)) / float(10**places)
-
 t = int(raw_input())
 
 for r in range(t):
